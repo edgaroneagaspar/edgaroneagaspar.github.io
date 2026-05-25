@@ -1,9 +1,7 @@
 const Site = (() => {
   const languages = [
     { code: 'en', label: 'EN', name: 'English', href: '/en/' },
-    { code: 'de', label: 'DE', name: 'Deutsch', href: '/de/' },
-    { code: 'ro', label: 'RO', name: 'Română', href: '/ro/' },
-    { code: 'hu', label: 'HU', name: 'Magyar', href: '/hu/' }
+    { code: 'de', label: 'DE', name: 'Deutsch', href: '/de/' }
   ];
 
   const sections = [
