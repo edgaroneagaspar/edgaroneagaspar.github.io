@@ -1,0 +1,56 @@
+[
+  {
+    "year": 2026,
+    "type": "Journal article",
+    "authors": ["Edgar Onea", "Tilmann Köppe", "Maya Cortez Espinoza", "Maria Bentz", "Vesela Simeonova"],
+    "title": "The linguistic basis of narrative suspense: narrative suspense depends on potentially inquiry-terminating questions",
+    "venue": "Language and Cognition 18, e8, 1–24",
+    "doi": "10.1017/langcog.2025.10057",
+    "topics": ["Narrative and suspense", "Questions and discourse"]
+  },
+  {
+    "year": 2025,
+    "type": "Journal article",
+    "authors": ["Kathrin Hirsch", "Tilmann Köppe", "Edgar Onea"],
+    "title": "What Is Narrative Suspense? Evidence from Production Studies",
+    "venue": "Journal of Literary Theory 19(2), 460–488",
+    "doi": "10.1515/jlt-2025-2022",
+    "topics": ["Narrative and suspense", "Experimental pragmatics"]
+  },
+  {
+    "year": 2022,
+    "type": "Journal article",
+    "authors": ["Edgar Onea", "Dennis Ott"],
+    "title": "Nominal appositives in grammar and discourse",
+    "venue": "Language 98(2), 359–391",
+    "doi": "10.1353/lan.2022.0004",
+    "topics": ["Grammar and discourse", "Appositives"]
+  },
+  {
+    "year": 2021,
+    "type": "Journal article",
+    "authors": ["Steffen Heidinger", "Edgar Onea"],
+    "title": "Focus affinity in Spanish. An experimental study",
+    "venue": "Journal of Pragmatics 186, 100–116",
+    "doi": "10.1016/j.pragma.2021.09.015",
+    "topics": ["Focus and information structure", "Experimental pragmatics"]
+  },
+  {
+    "year": 2019,
+    "type": "Edited volume",
+    "authors": ["Edgar Onea", "Klaus von Heusinger", "Malte Zimmermann"],
+    "title": "Questions in Discourse. Volume 1: Semantics",
+    "venue": "Brill",
+    "doi": "10.1163/9789004378308_001",
+    "topics": ["Questions and discourse", "Semantics"]
+  },
+  {
+    "year": 2016,
+    "type": "Monograph",
+    "authors": ["Edgar Onea"],
+    "title": "Potential Questions at the Semantics-Pragmatics Interface",
+    "venue": "Leiden: Brill",
+    "doi": "",
+    "topics": ["Questions and discourse", "Semantics"]
+  }
+]

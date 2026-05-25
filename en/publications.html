@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications · Edgar Onea</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script defer src="../assets/js/site.js"></script>
+  <script defer src="../assets/js/publications.js"></script>
+</head>
+<body data-lang="en" data-page="publications">
+  <div id="site-header"></div>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Publications</p>
+      <h1>One bibliography, several views.</h1>
+      <p>This toy version reads a few sample records from <code>assets/data/publications.json</code>. The same principle can later handle the full bibliography.</p>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <p><strong>Prototype note.</strong> The list below is intentionally small. Grouping by topic uses the first topic as the primary topic, so each item appears only once. Topic filtering still searches across all assigned topics.</p>
+      </div>
+      <form class="controls" onsubmit="return false;" aria-label="Publication filters">
+        <label>Search
+          <input id="publication-search" type="search" placeholder="Search title, author, venue, DOI, topic">
+        </label>
+        <label>Group by
+          <select id="group-by">
+            <option value="year">Year</option>
+            <option value="type">Type</option>
+            <option value="topic">Primary topic</option>
+            <option value="none">No grouping</option>
+          </select>
+        </label>
+        <label>Type
+          <select id="filter-type"><option>Loading…</option></select>
+        </label>
+        <label>Topic
+          <select id="filter-topic"><option>Loading…</option></select>
+        </label>
+      </form>
+      <p class="meta" id="publication-count">Loading publications</p>
+      <div id="publication-results"></div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+</body>
+</html>

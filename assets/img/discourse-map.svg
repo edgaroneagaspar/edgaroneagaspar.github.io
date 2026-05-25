@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract discourse map</title>
+  <desc id="desc">An abstract network of questions, alternatives and discourse paths.</desc>
+  <defs>
+    <radialGradient id="bg" cx="24%" cy="10%" r="90%">
+      <stop offset="0%" stop-color="#fff8ef"/>
+      <stop offset="52%" stop-color="#eadbd4"/>
+      <stop offset="100%" stop-color="#d8e2df"/>
+    </radialGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#211711" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <g opacity="0.78" stroke="#1e5e63" stroke-width="4" fill="none">
+    <path d="M142 612 C 220 514, 271 442, 386 442 S 561 358, 744 254"/>
+    <path d="M141 279 C 282 356, 351 396, 455 330 S 645 214, 777 154" opacity="0.65"/>
+    <path d="M203 711 C 344 646, 390 581, 487 611 S 665 658, 772 552" opacity="0.55"/>
+    <path d="M231 187 C 303 285, 312 398, 412 493 S 590 603, 672 738" opacity="0.48"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#171412" opacity="0.92">
+    <text x="118" y="168" font-size="76">Q</text>
+    <text x="737" y="229" font-size="88">?</text>
+    <text x="420" y="472" font-size="72">λ</text>
+    <text x="190" y="705" font-size="62">∃</text>
+    <text x="686" y="739" font-size="58">∀</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <circle cx="148" cy="612" r="28" fill="#8b2f24"/>
+    <circle cx="386" cy="442" r="38" fill="#fffaf3" stroke="#171412" stroke-width="3"/>
+    <circle cx="744" cy="254" r="31" fill="#1e5e63"/>
+    <circle cx="141" cy="279" r="23" fill="#fffaf3" stroke="#8b2f24" stroke-width="3"/>
+    <circle cx="455" cy="330" r="26" fill="#fffaf3" stroke="#1e5e63" stroke-width="3"/>
+    <circle cx="777" cy="154" r="18" fill="#8b2f24"/>
+    <circle cx="203" cy="711" r="25" fill="#1e5e63"/>
+    <circle cx="487" cy="611" r="33" fill="#fffaf3" stroke="#171412" stroke-width="3"/>
+    <circle cx="772" cy="552" r="21" fill="#8b2f24"/>
+    <circle cx="231" cy="187" r="21" fill="#1e5e63"/>
+    <circle cx="672" cy="738" r="29" fill="#fffaf3" stroke="#8b2f24" stroke-width="3"/>
+  </g>
+  <g opacity="0.12" fill="#171412">
+    <circle cx="668" cy="400" r="110"/>
+    <circle cx="302" cy="560" r="82"/>
+    <circle cx="548" cy="176" r="64"/>
+  </g>
+</svg>
